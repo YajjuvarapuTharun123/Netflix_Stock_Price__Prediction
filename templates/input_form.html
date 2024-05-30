@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stock Price Prediction</title>
+</head>
+<body>
+    <h1>Stock Price Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="open">Open Price:</label>
+        <input type="text" id="open" name="open" required><br>
+        <label for="high">High Price:</label>
+        <input type="text" id="high" name="high" required><br>
+        <label for="low">Low Price:</label>
+        <input type="text" id="low" name="low" required><br>
+        <label for="volume">volume:</label>
+        <input type="text" id="volume" name="volume" required><br>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
